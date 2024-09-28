@@ -13,6 +13,10 @@
   color: var(--main-color);
 }
 
+.fa-solid.fa-location-dot {
+  color: #000;
+}
+
 body {
   margin: 0;
   display: flex;
