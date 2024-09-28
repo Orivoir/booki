@@ -1,0 +1,80 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.filter-btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: 2px solid var(--filter-bg-color);
+  outline: none;
+  padding: 8px 12px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 25px;
+}
+
+.filter-btn:hover {
+  background-color: var(--filter-bg-color);
+}
+
+.filters-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.filter-btns-list {
+  display: flex;
+  gap: 25px;
+}
+
+.info-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-text i {
+  font-size: 12px;
+  padding: 6px 8px;
+  border: 1px solid var(--main-bg-color);
+  border-radius: 50%;
+}
+
+.searchbar-container form {
+
+  display: flex;
+  height: 40px;
+}
+
+.searchbar-container label {
+  background-color: var(--main-bg-color);
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.searchbar-container input {
+  outline-color: var(--filter-bg-color);
+  border: 2px solid var(--main-bg-color);
+}
+
+.searchbar-container button {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: var(--main-color);
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
