@@ -55,6 +55,55 @@
     transform: translateY(25px);
   }
 
+  .search-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .searchbar-container button i {
+    display: inline-block;
+  }
+
+  .searchbar-container button span {
+    display: none;
+  }
+
+  .searchbar-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .searchbar-container form {
+    width: 100%;
+  }
+
+  .searchbar-container input {
+    flex: 1;
+  }
+
+  .searchbar-container button {
+    border-radius: 10px;
+    padding: 10px 12px;
+    position: relative;
+    transform: translateX(-5px);
+    filter: drop-shadow(-3px 4px 4px rgba(0,0,0,.3));
+  }
+
+  .search-container div.search-title h2, .search-container div.search-title p {
+    text-align: center;
+  }
+
+  .filters-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .filter-btns-list {
+    flex-wrap: wrap;
+  }
+  .filter-btns-list li {
+    flex: 1 0 calc(50% - (25px * 2))
+  }
+
   .hebergements {
     background-color: #fff!important;
   }
