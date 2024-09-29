@@ -33,6 +33,10 @@
   .populaires-cards .card-subtitle {
       font-size: 13px;
   }
+
+  .activities-cards img {
+    height: 280px;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -59,7 +63,7 @@
     transform: translateY(25px);
   }
 
-  .search-container {
+  .search-container, .activities-container {
     width: 90%;
     margin: auto;
   }
@@ -124,5 +128,9 @@
   }
   .populaires a {
     width: 100%;
+  }
+
+  .activities-cards {
+    flex-direction: column;
   }
 }
