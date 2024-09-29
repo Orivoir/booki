@@ -45,6 +45,10 @@
     flex-direction: column;
     margin-bottom: 20px;
   }
+  header div {
+    display: flex;
+    justify-content: center;
+  }
   header nav ul::before {
     display: block;
   }
