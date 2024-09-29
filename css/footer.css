@@ -1,0 +1,15 @@
+footer {
+  margin-top: 80px;
+}
+
+.footer-container {
+
+  display: flex;
+  background-color: var(--main-bg-color);
+  padding: 20px 35px;
+  gap: 0 20%;
+}
+
+.footer-container section ul li  {
+  margin: 25px 0;
+}

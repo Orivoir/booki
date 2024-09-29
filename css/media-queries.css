@@ -133,4 +133,9 @@
   .activities-cards {
     flex-direction: column;
   }
+
+  .footer-container {
+    gap: 0;
+    flex-direction: column;
+  }
 }
