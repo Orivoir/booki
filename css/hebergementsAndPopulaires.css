@@ -43,6 +43,14 @@
   border-top-right-radius: 20px;
 }
 
+.hebergements .action-show-more {
+  font-weight: 700;
+}
+
+.hebergements aside {
+  margin-top: 25px;
+}
+
 
 /****** Populaires ***********/
 .populaires {
