@@ -1,15 +1,15 @@
 footer {
-  margin-top: 80px;
+  margin-top: calc(var(--between-section-margin) * 3);
 }
 
 .footer-container {
 
   display: flex;
   background-color: var(--main-bg-color);
-  padding: 20px 35px;
+  padding: var(--padding-section);
   gap: 0 20%;
 }
 
 .footer-container section ul li  {
-  margin: 25px 0;
+  margin: var(--gap-item) 0;
 }

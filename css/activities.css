@@ -1,18 +1,18 @@
 .activities-container {
-  margin-top: 50px;
+  margin-top: var(--between-section-margin);
 }
 
 .activities-cards {
-  margin-top: 30px;
+  margin-top: var(--gap-item);
   display: flex;
-  gap: 0 20px;
+  gap: 0 var(--gap-item);
 }
 
 .activities-cards img {
   width: 100%;
   height: 400px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: var(--radius-item);
+  border-top-right-radius: var(--radius-item);
 }
 
 .activities-cards .card {
@@ -20,10 +20,10 @@
 }
 
 .activities-cards a {
-  flex: 1 0 calc(25% - (20px * 2));
+  flex: 1 0 calc(25% - (var(--gap-item) * 2));
 }
 
 .activities-cards .card h3 {
-  padding-bottom: 25px;
-  padding-left: 20px;
+  padding-bottom: var(--padding-section);
+  padding-left: var(--padding-section);
 }

@@ -7,6 +7,26 @@
   --main-color: #0065FC;
   --main-bg-color: #F2F2F2;
   --filter-bg-color: #DEEBFF;
+
+  /**
+    Aditional css var use for persist and easy update graphic chart
+  **/
+  --title-margin: 30px;
+  --between-section-margin: 25px;
+  --gap-item: 20px;
+  --gap-inner-item: 15px;
+
+  --padding-filter: 12px 16px;
+  --padding-section: 30px;
+  --padding-border-card: 5px;
+
+  --txt-bold: 700;
+
+  --radius-section: 20px;
+  --radius-filter: 25px;
+  --radius-item: 20px;
+
+  --drop-shadow-item: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
 .fa-solid {
@@ -36,7 +56,7 @@ body {
 
 
 main {
-  margin-top: 40px;
+  margin-top: calc(var(--gap-item) * 2);
 }
 
 a {
@@ -51,9 +71,9 @@ a {
 
 .card {
   background-color: white;
-  border-radius: 20px;
-  padding: 5px;
-  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+  border-radius: var(--radius-item);
+  padding: var(--padding-border-card);
+  filter: var(--drop-shadow-item)
 }
 
 .card img {
@@ -65,7 +85,7 @@ a {
 }
 
 .euro {
-  font-weight: 700;
+  font-weight: var(--txt-bold);
 }
 
 .neutral-star {
