@@ -4,7 +4,7 @@
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
   .hebergements-and-populaires {
-      flex-direction: column-reverse;
+      flex-direction: column
   }
 
   .hebergements {
@@ -65,6 +65,10 @@
     * Switch border header link to bottom 
     */
     transform: translateY(25px);
+  }
+
+  .hebergements-and-populaires {
+    flex-direction: column-reverse;
   }
 
   .search-container, .activities-container {
