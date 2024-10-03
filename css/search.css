@@ -24,6 +24,11 @@
   background-color: var(--filter-bg-color);
 }
 
+.filter-btn span {
+  white-space: nowrap;
+}
+
+
 .filters-container {
   display: flex;
   gap: calc(var(--gap-item) + 5px);
