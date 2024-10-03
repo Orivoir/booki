@@ -55,7 +55,16 @@
 
 /****** Populaires ***********/
 .populaires {
+  display: flex;
+  flex-direction: column;
   width: 32%;
+}
+
+.populaires-cards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .populaires-title {
