@@ -24,6 +24,17 @@
 }
 
 .activities-cards .card h3 {
-  padding-bottom: var(--padding-section);
-  padding-left: var(--padding-section);
+  margin: 0;
+  inline-size: 90%;
+}
+
+.activities-cards .container-card-title {
+
+  height: 60px;
+  max-height: 60px;
+  min-height: 60px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
