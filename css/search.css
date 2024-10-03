@@ -42,8 +42,13 @@
 }
 
 .info-text i {
+
+  display: inline-block;
+
+  width: 12px;
+  text-align: center;
+  padding: 4px;
   font-size: 12px;
-  padding: 6px 8px;
   border: 1px solid var(--main-bg-color);
   border-radius: 50%;
 }
