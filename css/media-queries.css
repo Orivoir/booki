@@ -3,6 +3,12 @@
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+  .filters-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
   .hebergements-and-populaires {
       flex-direction: column
   }
@@ -132,10 +138,7 @@
     text-align: center;
   }
 
-  .filters-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+  
   .filter-btns-list {
     flex-wrap: wrap;
   }
