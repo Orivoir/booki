@@ -53,18 +53,41 @@
     display: flex;
     justify-content: center;
   }
-  header nav ul::before {
-    display: block;
+
+  header nav ul li {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
   }
-  header nav ul {
-    justify-content: space-around;
+
+  header nav ul li a {
+    display: inline-block;
+    width: 100%;
+    position: relative;
   }
 
   header nav ul li a::before {
     /**
     * Switch border header link to bottom 
-    */
+    
+    
     transform: translateY(25px);
+    */
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    top: 100%;
+    background-color: var(--main-bg-color);
+    opacity: 1;
+    transform: translateY(20px);
+  }
+
+  a:hover:before {
+    background-color: var(--main-color);
   }
 
   .hebergements-and-populaires {
