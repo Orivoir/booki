@@ -43,6 +43,10 @@
   .activities-cards img {
     height: 280px;
   }
+
+  footer .footer-container section:last-child {
+    margin-right: 10%;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -129,17 +133,12 @@
   .searchbar-container button {
     width: 50px;
     height: 50px;
-    border-radius: calc(var(--radius-item) / 2);
+    border-radius: calc(var(--radius-item) / 1.5);
     padding: 10px 12px;
     position: relative;
-    transform: translateX(-5px);
+    transform: translateX(-21px);
     filter: var(--drop-shadow-item)
   }
-
-  .search-container div.search-title h2, .search-container div.search-title p {
-    text-align: center;
-  }
-
   
   .filter-btns-list {
     flex-wrap: wrap;
