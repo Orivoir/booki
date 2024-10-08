@@ -48,6 +48,11 @@
   font-weight: var(--txt-bold);
 }
 
+.hebergements-cards .card-content {
+  padding-left: 12px;
+  padding-bottom: 6px;
+}
+
 .hebergements aside {
   margin-top: var(--gap-item);
 }
