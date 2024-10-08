@@ -20,7 +20,7 @@
   border-radius: var(--radius-filter);
 }
 
-.filter-btn:hover {
+.filter-btn:hover, .filter-btn.active {
   background-color: var(--filter-bg-color);
 }
 
@@ -95,6 +95,10 @@
   font-weight: var(--txt-bold);
   font-size: 1.2rem;
   cursor: pointer;
+}
+
+.filter-btn.active {
+  cursor: default;
 }
 
 .searchbar-container button i {
