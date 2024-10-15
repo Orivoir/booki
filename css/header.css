@@ -1,6 +1,5 @@
 /****** Header ***********/
 header {
-
   display: flex;
   justify-content: space-between;
 }
@@ -21,6 +20,7 @@ header nav ul li a {
   position: relative;
 }
 
+/** Add pseudo-elements on header links **/
 header nav ul li a::before {
   content: "";
   position: absolute;

@@ -1,40 +1,38 @@
-/****** General ***********/
-* {
-  font-family: 'Raleway', sans-serif;
-}
-
+/**
+* Liste des variables CSS du projet utilisé pour maintenir cohérence graphique et pouvoir la modifié facilement. 
+**/
 :root {
+  /** Colors variables **/
   --main-color: #0065FC;
   --main-bg-color: #F2F2F2;
   --filter-bg-color: #DEEBFF;
 
-  /**
-    Aditional css var use for persist and easy update graphic chart
-  **/
+  /** margin and spaces (gap) variables **/
   --title-margin: 30px;
   --between-section-margin: 25px;
   --gap-item: 20px;
   --gap-inner-item: 15px;
 
+  /** padding variables **/
   --padding-filter: 12px 16px;
   --padding-section: 30px;
   --padding-border-card: 5px;
 
-  --txt-bold: 700;
-
+  /** rounded (border-radius) variables **/
   --radius-section: 20px;
   --radius-filter: 25px;
   --radius-item: 20px;
 
+  /** others variables **/
+  --txt-bold: 700;
   --drop-shadow-item: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
-.fa-solid {
-  color: var(--main-color);
-}
 
-.fa-solid.fa-location-dot {
-  color: #000;
+/****** General ***********/
+
+* {
+  font-family: 'Raleway', sans-serif;
 }
 
 html {
@@ -47,13 +45,20 @@ body {
   justify-content: center;
 }
 
+.fa-solid {
+  color: var(--main-color);
+}
+
+.fa-solid.fa-location-dot {
+  color: #000;
+}
+
 .main-container {
   width: 100%;
   max-width: 1440px;
   padding: 0 50px;
   box-sizing: border-box;
 }
-
 
 main {
   margin-top: calc(var(--gap-item) * 2);
