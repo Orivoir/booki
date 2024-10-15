@@ -65,7 +65,7 @@
     flex-direction: column;
     margin-bottom: var(--gap-item);
   }
-  header div {
+  header .container-logo {
     display: flex;
     justify-content: center;
   }
