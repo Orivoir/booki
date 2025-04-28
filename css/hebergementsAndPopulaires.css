@@ -28,6 +28,11 @@
   flex-wrap: wrap;
 }
 
+.hebergements-cards .card-content {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
 .hebergements-cards a {
   /*
     force to have 3 items by row see: https://stackoverflow.com/questions/29546550/flexbox-4-items-per-row 
@@ -85,7 +90,7 @@
 
 .populaires-cards img {
   width: 33%;
-  height: 136px;
+  height: auto;
   border-top-left-radius: var(--radius-section);
   border-bottom-left-radius: var(--radius-section);
 }
@@ -97,6 +102,8 @@
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .populaires-cards .card-title {
